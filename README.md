@@ -8,6 +8,6 @@ CONTROLS:
 	Use the spacebar to compute and next generation.
 	Use the 'C' key to reset the state of all cells.
 	
-LISCENCE:
+LICENSE:
 
 	GPL v3
