@@ -11,3 +11,8 @@ CONTROLS:
 LICENSE:
 
 	GPL v3
+
+SCREENSHOTS:
+
+	(Screenshot.menu.png)
+	(Screenshot.grid.png)
