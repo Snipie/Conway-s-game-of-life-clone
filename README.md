@@ -14,5 +14,5 @@ LICENSE:
 
 SCREENSHOTS:
 
-	(Screenshot_menu.png)
-	(Screenshot_grid.png)
+	![alt tag](screenshots/Screenshot_menu.png)
+	![alt tag](screenshots/Screenshot_grid.png)
