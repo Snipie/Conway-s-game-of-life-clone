@@ -5,7 +5,7 @@ COMPILE:
 CONTROLS:
 
 	Use the mouse to change the state of a cell.
-	Use the spacebar to compute and next generation.
+	Use the 'N' key to compute and next generation.
 	Use the 'C' key to reset the state of all cells.
 	
 LICENSE:
