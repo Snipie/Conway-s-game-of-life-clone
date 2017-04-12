@@ -15,9 +15,9 @@ LICENSE:
 SCREENSHOTS:
 
 	
-[![alt tag](https://raw.githubusercontent.com/Snipie/Conway-s-game-of-life-clone/master/screenshots/Screenshot_menu.png)]
+![menu](https://raw.githubusercontent.com/Snipie/Conway-s-game-of-life-clone/master/screenshots/Screenshot_menu.png)
 
 
-	![](https://raw.githubusercontent.com/Snipie/Conway-s-game-of-life-clone/master/screenshots/Screenshot_grid.png)
+![grid](https://raw.githubusercontent.com/Snipie/Conway-s-game-of-life-clone/master/screenshots/Screenshot_grid.png)
 
 
