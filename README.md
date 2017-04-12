@@ -14,5 +14,5 @@ LICENSE:
 
 SCREENSHOTS:
 
-	![alt tag](screenshots/Screenshot_menu.png)
-	![alt tag](screenshots/Screenshot_grid.png)
+	![alt tag](Conway-s-game-of-life-clone/screenshots/Screenshot_menu.png)
+	![alt tag](Conway-s-game-of-life-clone/screenshots/Screenshot_grid.png)
