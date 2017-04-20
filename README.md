@@ -20,4 +20,4 @@ SCREENSHOTS:
 
 ![grid](https://raw.githubusercontent.com/Snipie/Conway-s-game-of-life-clone/master/screenshots/Screenshot_grid.png)
 
-
+![preview](https://raw.githubusercontent.com/Snipie/Conway-s-game-of-life-clone/master/preview.gif)
