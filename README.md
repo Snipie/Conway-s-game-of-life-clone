@@ -7,6 +7,7 @@ CONTROLS:
 	Use the mouse to change the state of a cell.
 	Use the 'n' key to compute the next generation.
 	Use the 'c' key to reset the state of all cells.
+	Use the 'e' key to get back to the main menu.
 	
 LICENSE:
 
