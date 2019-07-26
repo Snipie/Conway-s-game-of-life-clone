@@ -1,4 +1,6 @@
 # Conway-s-game-of-life-clone
+REQUIRED LIBRARIES:
+	freeglut - http://freeglut.sourceforge.net/
 COMPILE:
 
 	Linux: gcc main.c -o game -lGL -lglut -lGLU
