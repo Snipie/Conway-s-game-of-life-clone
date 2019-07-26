@@ -1,5 +1,6 @@
 # Conway-s-game-of-life-clone
 REQUIRED LIBRARIES:
+
 	freeglut - http://freeglut.sourceforge.net/
 COMPILE:
 
