@@ -306,8 +306,29 @@ void init(void)
 	gluOrtho2D(0.0, width, 0.0, height);
 }
 
+int processArguments(int argc, char *argv[])
+{
+	if(argc > 1)
+	{
+		if(!strcmp(argv[1], "-h") || !strcmp(argv[1], "--help"))
+		{
+			printf("Use the mouse to change the state of a cell.\nUse the 'n' key to compute the next generation.\nUse the 'c' key to reset the state of all cells.\nUse the 'e' key to get back to the main menu.\n");
+			return 0;
+		}
+	}
+	else
+	{
+		printf("Use the -h or --help argument to print the key bindings.\n");
+	}
+
+	return 1;
+} 
+
 int main(int argc, char *argv[])
 {
+	if(!processArguments(argc, argv))
+		return 0;
+
 	//btns[0] = {width/2, height/2 , 20, 20, 1, 0, 0};
 
 	width = 600; height = 600;
