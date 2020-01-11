@@ -18,12 +18,12 @@ void drawGrid()
 	glColor3f(1.0, 1.0, 1.0);
 	glBegin(GL_LINES);
 	int i;
-	for (i = 0; i < 40; i++)        //vertical
+	for (i = 0; i < 40; i++)	//vertical
 	{
 		glVertex2i(20 * i, 0);
 		glVertex2i(20 * i, h);
 	}
-	for (i = 30; i > -10; i--)      //horizontal
+	for (i = 30; i > -10; i--)	//horizontal
 	{
 		glVertex2i(0, 20 * i);
 		glVertex2i(w, 20 * i);
@@ -99,21 +99,18 @@ void nextGeneration(int g[][30])
 		for (j = 0; j < 30; j++)
 		{
 			n = getNeighbours(g, i, j);
-			if (g[i][j])                //cell is alive
+			if (g[i][j])	//cell is alive
 			{
-				if (n < 2 || n > 3) //rule number 1 & number 3
-
+				if (n < 2 || n > 3)	//rule number 1 & number 3
 					g2[i][j] = 0;
-				else if (n == 2 || n == 3) //rule number 2
-
+				else if (n == 2 || n == 3)	//rule number 2
 					g2[i][j] = 1;
 				else
 					g2[i][j] = g[i][j];
 			}
 			else
 			{
-				if (n == 3) //rule number 4
-
+				if (n == 3)	//rule number 4
 					g2[i][j] = 1;
 				else
 					g2[i][j] = g[i][j];
